@@ -1,0 +1,196 @@
+{
+ "schemaVersion": 1,
+ "sceneId": "mechatronics_blink",
+ "glb": "/models/mechatronics_blink.glb",
+ "camera": {
+  "position": [
+   0.295,
+   2.281,
+   1.908
+  ],
+  "target": [
+   -0.028,
+   0.132,
+   0.296
+  ],
+  "fov": 30,
+  "minDistance": 0.132,
+  "maxDistance": 7.036
+ },
+ "groups": {
+  "controller": {
+   "label": "Controller",
+   "color": "#0e7f8d"
+  },
+  "circuit": {
+   "label": "Circuit",
+   "color": "#e4532b"
+  },
+  "wiring": {
+   "label": "Wiring",
+   "color": "#e0a23a"
+  }
+ },
+ "layers": [],
+ "bounds": {
+  "min": [
+   -0.468,
+   0,
+   -0.275
+  ],
+  "max": [
+   0.412,
+   0.263,
+   0.866
+  ]
+ },
+ "nodes": {
+  "blink_uno": {
+   "name": "Arduino Uno",
+   "group": "controller",
+   "camera": {
+    "position": [
+     0.178,
+     1.443,
+     1.842
+    ],
+    "target": [
+     -0.098,
+     0.064,
+     0.6
+    ]
+   },
+   "anchor": [
+    -0.098,
+    0.064,
+    0.6
+   ]
+  },
+  "blink_led_onboard": {
+   "name": "Onboard LED (pin 13)",
+   "group": "controller",
+   "camera": {
+    "position": [
+     -0.066,
+     0.033,
+     0.432
+    ],
+    "target": [
+     -0.069,
+     0.02,
+     0.42
+    ]
+   },
+   "anchor": [
+    -0.069,
+    0.02,
+    0.42
+   ]
+  },
+  "blink_breadboard": {
+   "name": "Breadboard",
+   "group": "circuit",
+   "camera": {
+    "position": [
+     0.15,
+     1.533,
+     1.35
+    ],
+    "target": [
+     0,
+     0.034,
+     0
+    ]
+   },
+   "anchor": [
+    0,
+    0.034,
+    0
+   ]
+  },
+  "blink_resistor": {
+   "name": "220 ohm resistor",
+   "group": "circuit",
+   "camera": {
+    "position": [
+     -0.096,
+     0.219,
+     0.237
+    ],
+    "target": [
+     -0.127,
+     0.065,
+     0.114
+    ]
+   },
+   "anchor": [
+    -0.127,
+    0.065,
+    0.114
+   ]
+  },
+  "blink_led": {
+   "name": "LED",
+   "group": "circuit",
+   "camera": {
+    "position": [
+     -0.024,
+     0.217,
+     0.194
+    ],
+    "target": [
+     -0.051,
+     0.085,
+     0.089
+    ]
+   },
+   "anchor": [
+    -0.051,
+    0.085,
+    0.089
+   ]
+  },
+  "blink_wire_signal": {
+   "name": "Signal wire (pin 13)",
+   "group": "wiring",
+   "camera": {
+    "position": [
+     -0.096,
+     0.469,
+     0.53
+    ],
+    "target": [
+     -0.166,
+     0.117,
+     0.249
+    ]
+   },
+   "anchor": [
+    -0.166,
+    0.117,
+    0.249
+   ]
+  },
+  "blink_wires_ground": {
+   "name": "Ground wires",
+   "group": "wiring",
+   "camera": {
+    "position": [
+     -0.063,
+     0.743,
+     0.715
+    ],
+    "target": [
+     -0.183,
+     0.145,
+     0.236
+    ]
+   },
+   "anchor": [
+    -0.183,
+    0.145,
+    0.236
+   ]
+  }
+ }
+}

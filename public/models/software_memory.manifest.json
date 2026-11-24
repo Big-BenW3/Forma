@@ -1,0 +1,154 @@
+{
+ "schemaVersion": 1,
+ "sceneId": "software_memory",
+ "glb": "/models/software_memory.glb",
+ "camera": {
+  "position": [
+   0.638,
+   1.137,
+   3.198
+  ],
+  "target": [
+   0,
+   0.18,
+   0.009
+  ],
+  "fov": 30,
+  "minDistance": 0.139,
+  "maxDistance": 8.814
+ },
+ "groups": {
+  "module": {
+   "label": "Module",
+   "color": "#2f9a6a"
+  },
+  "chips": {
+   "label": "Chips",
+   "color": "#3a3f47"
+  },
+  "connector": {
+   "label": "Connector",
+   "color": "#d9a22e"
+  }
+ },
+ "layers": [],
+ "bounds": {
+  "min": [
+   -0.75,
+   0,
+   -0.022
+  ],
+  "max": [
+   0.75,
+   0.36,
+   0.04
+  ]
+ },
+ "nodes": {
+  "mem_module": {
+   "name": "Memory module",
+   "group": "module",
+   "camera": {
+    "position": [
+     1.103,
+     0.731,
+     2.762
+    ],
+    "target": [
+     0,
+     0.18,
+     0.006
+    ]
+   },
+   "anchor": [
+    0.62,
+    0.3,
+    0.04
+   ]
+  },
+  "mem_dram_chips": {
+   "name": "DRAM chips",
+   "group": "chips",
+   "camera": {
+    "position": [
+     0.57,
+     0.389,
+     1.866
+    ],
+    "target": [
+     0.017,
+     0.205,
+     0.024
+    ]
+   },
+   "anchor": [
+    -0.1,
+    0.25,
+    0.04
+   ]
+  },
+  "mem_pmic": {
+   "name": "Power management chip",
+   "group": "chips",
+   "camera": {
+    "position": [
+     0.45,
+     0.215,
+     0.174
+    ],
+    "target": [
+     0.42,
+     0.185,
+     0.026
+    ]
+   },
+   "anchor": [
+    0.42,
+    0.27,
+    0.04
+   ]
+  },
+  "mem_spd": {
+   "name": "SPD chip",
+   "group": "chips",
+   "camera": {
+    "position": [
+     0.596,
+     0.181,
+     0.1
+    ],
+    "target": [
+     0.58,
+     0.165,
+     0.02
+    ]
+   },
+   "anchor": [
+    0.58,
+    0.22,
+    0.04
+   ]
+  },
+  "mem_contacts": {
+   "name": "Gold contacts",
+   "group": "connector",
+   "camera": {
+    "position": [
+     0.173,
+     -0.713,
+     1.849
+    ],
+    "target": [
+     -0.012,
+     0.027,
+     0
+    ]
+   },
+   "anchor": [
+    -0.4,
+    0.03,
+    0.04
+   ]
+  }
+ }
+}

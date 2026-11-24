@@ -1,0 +1,301 @@
+{
+ "schemaVersion": 1,
+ "sceneId": "mechatronics_breadboard",
+ "glb": "/models/mechatronics_breadboard.glb",
+ "camera": {
+  "position": [
+   0.262,
+   1.822,
+   1.483
+  ],
+  "target": [
+   0,
+   0.078,
+   0
+  ],
+  "fov": 30,
+  "minDistance": 0.09,
+  "maxDistance": 5.991
+ },
+ "groups": {
+  "plastic": {
+   "label": "Plastic and holes",
+   "color": "#b8a46a"
+  },
+  "metal": {
+   "label": "Metal inside",
+   "color": "#7f8896"
+  },
+  "parts": {
+   "label": "Components",
+   "color": "#e4532b"
+  }
+ },
+ "layers": [
+  {
+   "id": "plastic",
+   "label": "Plastic cover"
+  },
+  {
+   "id": "clips",
+   "label": "Metal clips"
+  }
+ ],
+ "bounds": {
+  "min": [
+   -0.412,
+   0,
+   -0.275
+  ],
+  "max": [
+   0.412,
+   0.156,
+   0.275
+  ]
+ },
+ "nodes": {
+  "bb_body": {
+   "name": "Plastic body",
+   "group": "plastic",
+   "layer": "plastic",
+   "camera": {
+    "position": [
+     0.517,
+     1.778,
+     1.551
+    ],
+    "target": [
+     0,
+     0.054,
+     0
+    ]
+   },
+   "anchor": [
+    -0.36,
+    0.066,
+    0.18
+   ]
+  },
+  "bb_strips_top": {
+   "name": "Terminal strips a to e",
+   "group": "plastic",
+   "layer": "plastic",
+   "camera": {
+    "position": [
+     0,
+     1.408,
+     0.649
+    ],
+    "target": [
+     0,
+     0.067,
+     -0.089
+    ]
+   },
+   "anchor": [
+    0,
+    0.067,
+    -0.089
+   ]
+  },
+  "bb_strips_bottom": {
+   "name": "Terminal strips f to j",
+   "group": "plastic",
+   "layer": "plastic",
+   "camera": {
+    "position": [
+     0,
+     1.408,
+     0.826
+    ],
+    "target": [
+     0,
+     0.067,
+     0.089
+    ]
+   },
+   "anchor": [
+    0,
+    0.067,
+    0.089
+   ]
+  },
+  "bb_rails": {
+   "name": "Power rails",
+   "group": "plastic",
+   "layer": "plastic",
+   "camera": {
+    "position": [
+     0,
+     1.888,
+     1.275
+    ],
+    "target": [
+     0,
+     0.067,
+     0
+    ]
+   },
+   "anchor": [
+    0.32,
+    0.066,
+    -0.229
+   ]
+  },
+  "bb_channel": {
+   "name": "Centre channel",
+   "group": "plastic",
+   "layer": "plastic",
+   "camera": {
+    "position": [
+     0,
+     1.421,
+     1.101
+    ],
+    "target": [
+     0,
+     0.044,
+     0
+    ]
+   },
+   "anchor": [
+    0,
+    0.044,
+    0
+   ]
+  },
+  "bb_base": {
+   "name": "Base",
+   "group": "metal",
+   "layer": "clips",
+   "camera": {
+    "position": [
+     0.592,
+     1.206,
+     1.974
+    ],
+    "target": [
+     0,
+     0.021,
+     0
+    ]
+   },
+   "anchor": [
+    0,
+    0.021,
+    0
+   ],
+   "decor": true
+  },
+  "bb_clips": {
+   "name": "Metal clips",
+   "group": "metal",
+   "layer": "clips",
+   "camera": {
+    "position": [
+     0,
+     1.609,
+     0.939
+    ],
+    "target": [
+     0,
+     0.044,
+     0
+    ]
+   },
+   "anchor": [
+    -0.25,
+    0.062,
+    -0.089
+   ]
+  },
+  "bb_wire_power": {
+   "name": "Power wire",
+   "group": "parts",
+   "layer": "clips",
+   "camera": {
+    "position": [
+     -0.196,
+     0.352,
+     0.025
+    ],
+    "target": [
+     -0.248,
+     0.091,
+     -0.184
+    ]
+   },
+   "anchor": [
+    -0.248,
+    0.091,
+    -0.184
+   ]
+  },
+  "bb_resistor": {
+   "name": "Resistor",
+   "group": "parts",
+   "layer": "clips",
+   "camera": {
+    "position": [
+     -0.094,
+     0.229,
+     0.016
+    ],
+    "target": [
+     -0.127,
+     0.065,
+     -0.114
+    ]
+   },
+   "anchor": [
+    -0.127,
+    0.065,
+    -0.114
+   ]
+  },
+  "bb_led": {
+   "name": "LED",
+   "group": "parts",
+   "layer": "clips",
+   "camera": {
+    "position": [
+     -0.021,
+     0.236,
+     0.032
+    ],
+    "target": [
+     -0.051,
+     0.085,
+     -0.089
+    ]
+   },
+   "anchor": [
+    -0.051,
+    0.085,
+    -0.089
+   ]
+  },
+  "bb_wire_ground": {
+   "name": "Ground wire",
+   "group": "parts",
+   "layer": "clips",
+   "camera": {
+    "position": [
+     -0.053,
+     0.429,
+     0.137
+    ],
+    "target": [
+     -0.121,
+     0.091,
+     -0.133
+    ]
+   },
+   "anchor": [
+    -0.121,
+    0.091,
+    -0.133
+   ]
+  }
+ }
+}

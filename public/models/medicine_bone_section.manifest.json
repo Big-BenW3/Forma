@@ -1,0 +1,175 @@
+{
+ "schemaVersion": 1,
+ "sceneId": "medicine_bone_section",
+ "glb": "/models/medicine_bone_section.glb",
+ "camera": {
+  "position": [
+   1.318,
+   0.417,
+   3.414
+  ],
+  "target": [
+   0.275,
+   0,
+   -0.062
+  ],
+  "fov": 30,
+  "minDistance": 0.15,
+  "maxDistance": 9.497
+ },
+ "groups": {
+  "outer": {
+   "label": "Outer layers",
+   "color": "#c98a7a"
+  },
+  "hard": {
+   "label": "Hard bone",
+   "color": "#b8a97f"
+  },
+  "marrow": {
+   "label": "Marrow",
+   "color": "#d9a22e"
+  }
+ },
+ "layers": [],
+ "bounds": {
+  "min": [
+   -0.232,
+   -0.637,
+   -0.232
+  ],
+  "max": [
+   0.783,
+   0.637,
+   0.107
+  ]
+ },
+ "nodes": {
+  "bone_periosteum": {
+   "name": "Periosteum",
+   "group": "outer",
+   "camera": {
+    "position": [
+     -0.341,
+     0.11,
+     1.084
+    ],
+    "target": [
+     0.32,
+     0,
+     -0.018
+    ]
+   },
+   "anchor": [
+    -0.123,
+    0.22,
+    -0.02
+   ]
+  },
+  "bone_compact": {
+   "name": "Compact bone",
+   "group": "hard",
+   "camera": {
+    "position": [
+     0.595,
+     0.158,
+     1.52
+    ],
+    "target": [
+     0.28,
+     0,
+     -0.056
+    ]
+   },
+   "anchor": [
+    0.094,
+    0.12,
+    0.002
+   ]
+  },
+  "bone_red_marrow": {
+   "name": "Red bone marrow",
+   "group": "marrow",
+   "camera": {
+    "position": [
+     0.437,
+     0.291,
+     1.356
+    ],
+    "target": [
+     0,
+     0,
+     -0.101
+    ]
+   },
+   "anchor": [
+    0.1,
+    0.46,
+    -0.06
+   ]
+  },
+  "bone_spongy": {
+   "name": "Spongy bone",
+   "group": "hard",
+   "camera": {
+    "position": [
+     0.123,
+     0.255,
+     1.178
+    ],
+    "target": [
+     -0.005,
+     0,
+     -0.097
+    ]
+   },
+   "anchor": [
+    -0.1,
+    0.45,
+    -0.02
+   ]
+  },
+  "bone_medullary_cavity": {
+   "name": "Medullary cavity",
+   "group": "marrow",
+   "camera": {
+    "position": [
+     0.537,
+     0.104,
+     1.035
+    ],
+    "target": [
+     0.33,
+     0,
+     0
+    ]
+   },
+   "anchor": [
+    0,
+    -0.05,
+    0.004
+   ]
+  },
+  "bone_articular_cartilage": {
+   "name": "Articular cartilage",
+   "group": "outer",
+   "camera": {
+    "position": [
+     0.342,
+     0.684,
+     1.024
+    ],
+    "target": [
+     0,
+     0,
+     -0.116
+    ]
+   },
+   "anchor": [
+    0,
+    0.635,
+    -0.02
+   ]
+  }
+ }
+}

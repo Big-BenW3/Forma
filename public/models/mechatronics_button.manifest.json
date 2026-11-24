@@ -1,0 +1,238 @@
+{
+ "schemaVersion": 1,
+ "sceneId": "mechatronics_button",
+ "glb": "/models/mechatronics_button.glb",
+ "camera": {
+  "position": [
+   0.295,
+   2.292,
+   1.911
+  ],
+  "target": [
+   -0.028,
+   0.139,
+   0.296
+  ],
+  "fov": 30,
+  "minDistance": 0.132,
+  "maxDistance": 7.048
+ },
+ "groups": {
+  "controller": {
+   "label": "Controller",
+   "color": "#0e7f8d"
+  },
+  "circuit": {
+   "label": "Circuit",
+   "color": "#e4532b"
+  },
+  "wiring": {
+   "label": "Wiring",
+   "color": "#e0a23a"
+  }
+ },
+ "layers": [],
+ "bounds": {
+  "min": [
+   -0.468,
+   0,
+   -0.275
+  ],
+  "max": [
+   0.412,
+   0.277,
+   0.866
+  ]
+ },
+ "nodes": {
+  "btn_uno": {
+   "name": "Arduino Uno",
+   "group": "controller",
+   "camera": {
+    "position": [
+     0.178,
+     1.443,
+     1.842
+    ],
+    "target": [
+     -0.098,
+     0.064,
+     0.6
+    ]
+   },
+   "anchor": [
+    -0.098,
+    0.064,
+    0.6
+   ]
+  },
+  "btn_led_onboard": {
+   "name": "Onboard LED (pin 13)",
+   "group": "controller",
+   "camera": {
+    "position": [
+     -0.066,
+     0.033,
+     0.432
+    ],
+    "target": [
+     -0.069,
+     0.02,
+     0.42
+    ]
+   },
+   "anchor": [
+    -0.069,
+    0.02,
+    0.42
+   ]
+  },
+  "btn_breadboard": {
+   "name": "Breadboard",
+   "group": "circuit",
+   "camera": {
+    "position": [
+     0.15,
+     1.533,
+     1.35
+    ],
+    "target": [
+     0,
+     0.034,
+     0
+    ]
+   },
+   "anchor": [
+    0,
+    0.034,
+    0
+   ]
+  },
+  "btn_resistor": {
+   "name": "220 ohm resistor",
+   "group": "circuit",
+   "camera": {
+    "position": [
+     -0.096,
+     0.219,
+     0.237
+    ],
+    "target": [
+     -0.127,
+     0.065,
+     0.114
+    ]
+   },
+   "anchor": [
+    -0.127,
+    0.065,
+    0.114
+   ]
+  },
+  "btn_led": {
+   "name": "LED",
+   "group": "circuit",
+   "camera": {
+    "position": [
+     -0.024,
+     0.217,
+     0.194
+    ],
+    "target": [
+     -0.051,
+     0.085,
+     0.089
+    ]
+   },
+   "anchor": [
+    -0.051,
+    0.085,
+    0.089
+   ]
+  },
+  "btn_switch": {
+   "name": "Push button",
+   "group": "circuit",
+   "camera": {
+    "position": [
+     0.138,
+     0.196,
+     0.096
+    ],
+    "target": [
+     0.114,
+     0.076,
+     0
+    ]
+   },
+   "anchor": [
+    0.114,
+    0.076,
+    0
+   ]
+  },
+  "btn_wire_signal": {
+   "name": "LED signal wire (pin 13)",
+   "group": "wiring",
+   "camera": {
+    "position": [
+     -0.096,
+     0.469,
+     0.53
+    ],
+    "target": [
+     -0.166,
+     0.117,
+     0.249
+    ]
+   },
+   "anchor": [
+    -0.166,
+    0.117,
+    0.249
+   ]
+  },
+  "btn_wire_input": {
+   "name": "Button input wire (pin 2)",
+   "group": "wiring",
+   "camera": {
+    "position": [
+     0.205,
+     0.482,
+     0.541
+    ],
+    "target": [
+     0.132,
+     0.117,
+     0.249
+    ]
+   },
+   "anchor": [
+    0.132,
+    0.117,
+    0.249
+   ]
+  },
+  "btn_wires_ground": {
+   "name": "Ground wires",
+   "group": "wiring",
+   "camera": {
+    "position": [
+     0.29,
+     1.539,
+     1.182
+    ],
+    "target": [
+     0.013,
+     0.152,
+     0.072
+    ]
+   },
+   "anchor": [
+    0.013,
+    0.152,
+    0.072
+   ]
+  }
+ }
+}

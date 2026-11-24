@@ -1,0 +1,353 @@
+{
+ "schemaVersion": 1,
+ "sceneId": "architecture_house",
+ "glb": "/models/architecture_house.glb",
+ "camera": {
+  "position": [
+   21.581,
+   21.72,
+   26.916
+  ],
+  "target": [
+   6,
+   2.8,
+   4.657
+  ],
+  "fov": 30,
+  "minDistance": 1.614,
+  "maxDistance": 86.082
+ },
+ "groups": {
+  "sleeping": {
+   "label": "Bedrooms",
+   "color": "#6f86d8"
+  },
+  "living": {
+   "label": "Living",
+   "color": "#e0a23a"
+  },
+  "service": {
+   "label": "Service rooms",
+   "color": "#3f9f8f"
+  },
+  "envelope": {
+   "label": "Envelope",
+   "color": "#c9684a"
+  },
+  "structure": {
+   "label": "Structure",
+   "color": "#7c8594"
+  }
+ },
+ "layers": [
+  {
+   "id": "roof",
+   "label": "Roof",
+   "covers": true
+  },
+  {
+   "id": "building",
+   "label": "Walls and floors"
+  }
+ ],
+ "bounds": {
+  "min": [
+   -0.585,
+   -0.2,
+   -0.635
+  ],
+  "max": [
+   12.585,
+   5.8,
+   9.95
+  ]
+ },
+ "nodes": {
+  "slab_foundation": {
+   "name": "Foundation slab",
+   "group": "structure",
+   "layer": "building",
+   "camera": {
+    "position": [
+     37.681,
+     15.741,
+     23.509
+    ],
+    "target": [
+     6,
+     -0.1,
+     4.5
+    ]
+   },
+   "anchor": [
+    12.25,
+    0,
+    4.5
+   ]
+  },
+  "wall_exterior": {
+   "name": "Exterior walls",
+   "group": "envelope",
+   "layer": "building",
+   "camera": {
+    "position": [
+     -29.497,
+     20.003,
+     22.248
+    ],
+    "target": [
+     6,
+     2.255,
+     4.5
+    ]
+   },
+   "anchor": [
+    0,
+    1.4,
+    6.8
+   ]
+  },
+  "wall_interior": {
+   "name": "Interior walls",
+   "group": "structure",
+   "layer": "building",
+   "camera": {
+    "position": [
+     10.743,
+     34.549,
+     28.214
+    ],
+    "target": [
+     6,
+     1.35,
+     4.5
+    ]
+   },
+   "anchor": [
+    4.4,
+    1.4,
+    6
+   ]
+  },
+  "roof": {
+   "name": "Roof",
+   "group": "envelope",
+   "layer": "roof",
+   "camera": {
+    "position": [
+     17.747,
+     29.321,
+     33.835
+    ],
+    "target": [
+     6,
+     2.89,
+     4.467
+    ]
+   },
+   "anchor": [
+    8.4,
+    3.8,
+    7.38
+   ]
+  },
+  "doors": {
+   "name": "Doors",
+   "group": "envelope",
+   "layer": "building",
+   "camera": {
+    "position": [
+     11.689,
+     5.533,
+     28.551
+    ],
+    "target": [
+     5.175,
+     1.19,
+     6.837
+    ]
+   },
+   "anchor": [
+    8.5,
+    1.05,
+    9
+   ]
+  },
+  "windows": {
+   "name": "Windows",
+   "group": "envelope",
+   "layer": "building",
+   "camera": {
+    "position": [
+     15.566,
+     7.697,
+     36.386
+    ],
+    "target": [
+     6,
+     1.32,
+     4.5
+    ]
+   },
+   "anchor": [
+    6.2,
+    1.5,
+    9
+   ]
+  },
+  "room_bedroom_1": {
+   "name": "Bedroom 1",
+   "group": "sleeping",
+   "layer": "building",
+   "camera": {
+    "position": [
+     3.503,
+     14.649,
+     8.282
+    ],
+    "target": [
+     2.145,
+     1.065,
+     1.943
+    ]
+   },
+   "anchor": [
+    2.1,
+    0.9,
+    1.9
+   ]
+  },
+  "room_bathroom": {
+   "name": "Bathroom",
+   "group": "service",
+   "layer": "building",
+   "camera": {
+    "position": [
+     6.36,
+     11.678,
+     6.956
+    ],
+    "target": [
+     5.286,
+     0.94,
+     1.945
+    ]
+   },
+   "anchor": [
+    5.3,
+    0.9,
+    1.9
+   ]
+  },
+  "room_bedroom_2": {
+   "name": "Bedroom 2",
+   "group": "sleeping",
+   "layer": "building",
+   "camera": {
+    "position": [
+     8.892,
+     11.524,
+     7.038
+    ],
+    "target": [
+     7.8,
+     0.605,
+     1.943
+    ]
+   },
+   "anchor": [
+    7.8,
+    0.9,
+    1.9
+   ]
+  },
+  "room_bedroom_3": {
+   "name": "Bedroom 3",
+   "group": "sleeping",
+   "layer": "building",
+   "camera": {
+    "position": [
+     11.891,
+     14.43,
+     8.682
+    ],
+    "target": [
+     10.555,
+     1.065,
+     2.445
+    ]
+   },
+   "anchor": [
+    10.6,
+    0.9,
+    2.4
+   ]
+  },
+  "room_hall": {
+   "name": "Hall",
+   "group": "service",
+   "layer": "building",
+   "camera": {
+    "position": [
+     7.004,
+     24.11,
+     15.308
+    ],
+    "target": [
+     4.645,
+     0.521,
+     4.3
+    ]
+   },
+   "anchor": [
+    4.6,
+    0.9,
+    4.3
+   ]
+  },
+  "room_kitchen": {
+   "name": "Kitchen",
+   "group": "service",
+   "layer": "building",
+   "camera": {
+    "position": [
+     3.697,
+     15.658,
+     13.658
+    ],
+    "target": [
+     2.24,
+     1.09,
+     6.86
+    ]
+   },
+   "anchor": [
+    2.2,
+    0.9,
+    6.9
+   ]
+  },
+  "room_living": {
+   "name": "Living and dining",
+   "group": "living",
+   "layer": "building",
+   "camera": {
+    "position": [
+     9.962,
+     18.921,
+     15.286
+    ],
+    "target": [
+     8.155,
+     0.855,
+     6.855
+    ]
+   },
+   "anchor": [
+    8.2,
+    0.9,
+    6.9
+   ]
+  }
+ }
+}

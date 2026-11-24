@@ -1,0 +1,326 @@
+{
+ "schemaVersion": 1,
+ "sceneId": "mechatronics_uno",
+ "glb": "/models/mechatronics_uno.glb",
+ "camera": {
+  "position": [
+   0.271,
+   1.554,
+   1.192
+  ],
+  "target": [
+   -0.028,
+   0.064,
+   0
+  ],
+  "fov": 30,
+  "minDistance": 0.083,
+  "maxDistance": 5.022
+ },
+ "groups": {
+  "board": {
+   "label": "Board",
+   "color": "#0e7f8d"
+  },
+  "power": {
+   "label": "Power",
+   "color": "#e0a23a"
+  },
+  "brain": {
+   "label": "Control",
+   "color": "#e4532b"
+  },
+  "io": {
+   "label": "Pins and lights",
+   "color": "#2f9a6a"
+  }
+ },
+ "layers": [],
+ "bounds": {
+  "min": [
+   -0.398,
+   0,
+   -0.266
+  ],
+  "max": [
+   0.343,
+   0.127,
+   0.266
+  ]
+ },
+ "nodes": {
+  "uno_pcb": {
+   "name": "Circuit board",
+   "group": "board",
+   "camera": {
+    "position": [
+     0.261,
+     1.316,
+     1.044
+    ],
+    "target": [
+     0,
+     0.011,
+     0
+    ]
+   },
+   "anchor": [
+    -0.3,
+    0.02,
+    0.2
+   ]
+  },
+  "uno_usb": {
+   "name": "USB connector",
+   "group": "power",
+   "camera": {
+    "position": [
+     -0.556,
+     0.259,
+     0.026
+    ],
+    "target": [
+     -0.314,
+     0.072,
+     -0.109
+    ]
+   },
+   "anchor": [
+    -0.314,
+    0.072,
+    -0.109
+   ]
+  },
+  "uno_barrel": {
+   "name": "Power jack",
+   "group": "power",
+   "camera": {
+    "position": [
+     -0.519,
+     0.242,
+     0.236
+    ],
+    "target": [
+     -0.298,
+     0.07,
+     0.186
+    ]
+   },
+   "anchor": [
+    -0.298,
+    0.07,
+    0.186
+   ]
+  },
+  "uno_regulator": {
+   "name": "Voltage regulator",
+   "group": "power",
+   "camera": {
+    "position": [
+     -0.14,
+     0.329,
+     0.233
+    ],
+    "target": [
+     -0.168,
+     0.048,
+     0.064
+    ]
+   },
+   "anchor": [
+    -0.168,
+    0.048,
+    0.064
+   ]
+  },
+  "uno_power_header": {
+   "name": "Power header",
+   "group": "power",
+   "camera": {
+    "position": [
+     0.038,
+     0.27,
+     0.476
+    ],
+    "target": [
+     0.038,
+     0.059,
+     0.242
+    ]
+   },
+   "anchor": [
+    0.038,
+    0.059,
+    0.242
+   ]
+  },
+  "uno_mcu": {
+   "name": "ATmega328P",
+   "group": "brain",
+   "camera": {
+    "position": [
+     0.157,
+     0.549,
+     0.436
+    ],
+    "target": [
+     0.107,
+     0.05,
+     0.087
+    ]
+   },
+   "anchor": [
+    0.107,
+    0.05,
+    0.087
+   ]
+  },
+  "uno_crystal": {
+   "name": "16 MHz crystal",
+   "group": "brain",
+   "camera": {
+    "position": [
+     -0.028,
+     0.166,
+     0.063
+    ],
+    "target": [
+     -0.041,
+     0.035,
+     -0.028
+    ]
+   },
+   "anchor": [
+    -0.041,
+    0.035,
+    -0.028
+   ]
+  },
+  "uno_usb_chip": {
+   "name": "USB-to-serial chip",
+   "group": "brain",
+   "camera": {
+    "position": [
+     -0.139,
+     0.116,
+     -0.053
+    ],
+    "target": [
+     -0.148,
+     0.022,
+     -0.118
+    ]
+   },
+   "anchor": [
+    -0.148,
+    0.022,
+    -0.118
+   ]
+  },
+  "uno_reset": {
+   "name": "Reset button",
+   "group": "brain",
+   "camera": {
+    "position": [
+     -0.239,
+     0.133,
+     -0.14
+    ],
+    "target": [
+     -0.248,
+     0.042,
+     -0.204
+    ]
+   },
+   "anchor": [
+    -0.248,
+    0.042,
+    -0.204
+   ]
+  },
+  "uno_digital_header": {
+   "name": "Digital pin header",
+   "group": "io",
+   "camera": {
+    "position": [
+     0.062,
+     0.563,
+     -0.801
+    ],
+    "target": [
+     0.062,
+     0.059,
+     -0.242
+    ]
+   },
+   "anchor": [
+    0.062,
+    0.059,
+    -0.242
+   ]
+  },
+  "uno_analog_header": {
+   "name": "Analog pin header",
+   "group": "io",
+   "camera": {
+    "position": [
+     0.239,
+     0.227,
+     0.428
+    ],
+    "target": [
+     0.239,
+     0.059,
+     0.242
+    ]
+   },
+   "anchor": [
+    0.239,
+    0.059,
+    0.242
+   ]
+  },
+  "uno_icsp": {
+   "name": "ICSP header",
+   "group": "io",
+   "camera": {
+    "position": [
+     0.397,
+     0.155,
+     -0.021
+    ],
+    "target": [
+     0.3,
+     0.058,
+     -0.054
+    ]
+   },
+   "anchor": [
+    0.3,
+    0.058,
+    -0.054
+   ]
+  },
+  "uno_led_l": {
+   "name": "Pin 13 LED",
+   "group": "io",
+   "camera": {
+    "position": [
+     0.002,
+     0.034,
+     -0.17
+    ],
+    "target": [
+     0.001,
+     0.02,
+     -0.18
+    ]
+   },
+   "anchor": [
+    0.001,
+    0.02,
+    -0.18
+   ]
+  }
+ }
+}

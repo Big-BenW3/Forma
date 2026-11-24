@@ -1,0 +1,937 @@
+{
+ "schemaVersion": 1,
+ "sceneId": "medicine_skeleton",
+ "glb": "/models/medicine_skeleton.glb",
+ "camera": {
+  "position": [
+   0.874,
+   1.416,
+   4.39
+  ],
+  "target": [
+   0,
+   0.892,
+   0.02
+  ],
+  "fov": 30,
+  "minDistance": 0.172,
+  "maxDistance": 11.666
+ },
+ "groups": {
+  "tissue": {
+   "label": "Tissue layers",
+   "color": "#d98b6a"
+  },
+  "connective": {
+   "label": "Connective tissue",
+   "color": "#5f9db8"
+  },
+  "skull": {
+   "label": "Skull",
+   "color": "#c4574a"
+  },
+  "axial": {
+   "label": "Spine and thorax",
+   "color": "#6d63c9"
+  },
+  "upper": {
+   "label": "Upper limb",
+   "color": "#2f8d80"
+  },
+  "lower": {
+   "label": "Lower limb",
+   "color": "#d9a22e"
+  }
+ },
+ "layers": [
+  {
+   "id": "skin",
+   "label": "Skin"
+  },
+  {
+   "id": "muscle",
+   "label": "Muscle",
+   "covers": true
+  },
+  {
+   "id": "connective",
+   "label": "Connective tissue"
+  },
+  {
+   "id": "bone",
+   "label": "Bone"
+  }
+ ],
+ "bounds": {
+  "min": [
+   -0.31,
+   0.001,
+   -0.137
+  ],
+  "max": [
+   0.31,
+   1.783,
+   0.178
+  ]
+ },
+ "nodes": {
+  "bone_occipital": {
+   "name": "Occipital bone",
+   "group": "skull",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.153,
+     1.744,
+     -0.424
+    ],
+    "target": [
+     0,
+     1.668,
+     -0.041
+    ]
+   },
+   "anchor": [
+    0.03,
+    1.66,
+    -0.105
+   ]
+  },
+  "bone_temporal": {
+   "name": "Temporal bones",
+   "group": "skull",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.312,
+     1.642,
+     0.013
+    ],
+    "target": [
+     0,
+     1.627,
+     -0.018
+    ]
+   },
+   "anchor": [
+    0.071,
+    1.63,
+    -0.02
+   ]
+  },
+  "bone_parietal": {
+   "name": "Parietal bones",
+   "group": "skull",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.296,
+     1.87,
+     0.094
+    ],
+    "target": [
+     0,
+     1.686,
+     -0.017
+    ]
+   },
+   "anchor": [
+    0.055,
+    1.74,
+    -0.03
+   ]
+  },
+  "bone_zygomatic": {
+   "name": "Zygomatic bones",
+   "group": "skull",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.179,
+     1.622,
+     0.263
+    ],
+    "target": [
+     0,
+     1.611,
+     0.039
+    ]
+   },
+   "anchor": [
+    0.055,
+    1.613,
+    0.06
+   ]
+  },
+  "bone_sphenoid": {
+   "name": "Sphenoid bone",
+   "group": "skull",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.187,
+     1.658,
+     0.122
+    ],
+    "target": [
+     0,
+     1.639,
+     0.029
+    ]
+   },
+   "anchor": [
+    0.066,
+    1.655,
+    0.035
+   ]
+  },
+  "bone_frontal": {
+   "name": "Frontal bone",
+   "group": "skull",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.131,
+     1.712,
+     0.353
+    ],
+    "target": [
+     0,
+     1.683,
+     0.063
+    ]
+   },
+   "anchor": [
+    0.03,
+    1.72,
+    0.07
+   ]
+  },
+  "bone_maxilla": {
+   "name": "Maxilla",
+   "group": "skull",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.067,
+     1.603,
+     0.292
+    ],
+    "target": [
+     0,
+     1.603,
+     0.069
+    ]
+   },
+   "anchor": [
+    0.02,
+    1.59,
+    0.083
+   ]
+  },
+  "bone_nasal": {
+   "name": "Nasal bones",
+   "group": "skull",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.025,
+     1.629,
+     0.14
+    ],
+    "target": [
+     0,
+     1.624,
+     0.089
+    ]
+   },
+   "anchor": [
+    0.004,
+    1.63,
+    0.092
+   ]
+  },
+  "bone_mandible": {
+   "name": "Mandible",
+   "group": "skull",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.204,
+     1.548,
+     0.29
+    ],
+    "target": [
+     0,
+     1.573,
+     0.035
+    ]
+   },
+   "anchor": [
+    0.045,
+    1.547,
+    0.05
+   ]
+  },
+  "bone_teeth": {
+   "name": "Teeth",
+   "group": "skull",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.031,
+     1.563,
+     0.168
+    ],
+    "target": [
+     0,
+     1.563,
+     0.065
+    ]
+   },
+   "anchor": [
+    0.018,
+    1.566,
+    0.086
+   ]
+  },
+  "bone_cervical": {
+   "name": "Cervical vertebrae",
+   "group": "axial",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.246,
+     1.536,
+     0.067
+    ],
+    "target": [
+     0,
+     1.511,
+     -0.031
+    ]
+   },
+   "anchor": [
+    0.012,
+    1.51,
+    -0.03
+   ]
+  },
+  "bone_thoracic": {
+   "name": "Thoracic vertebrae",
+   "group": "axial",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.588,
+     1.309,
+     -0.472
+    ],
+    "target": [
+     0,
+     1.277,
+     -0.08
+    ]
+   },
+   "anchor": [
+    0.012,
+    1.28,
+    -0.105
+   ]
+  },
+  "bone_lumbar": {
+   "name": "Lumbar vertebrae",
+   "group": "axial",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.36,
+     1.047,
+     0.068
+    ],
+    "target": [
+     0,
+     1.029,
+     -0.04
+    ]
+   },
+   "anchor": [
+    0.03,
+    1.03,
+    -0.035
+   ]
+  },
+  "bone_sacrum": {
+   "name": "Sacrum",
+   "group": "axial",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.151,
+     0.911,
+     -0.332
+    ],
+    "target": [
+     0.006,
+     0.882,
+     -0.042
+    ]
+   },
+   "anchor": [
+    0.02,
+    0.9,
+    -0.04
+   ]
+  },
+  "bone_coccyx": {
+   "name": "Coccyx",
+   "group": "axial",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.028,
+     0.778,
+     -0.122
+    ],
+    "target": [
+     0,
+     0.787,
+     -0.075
+    ]
+   },
+   "anchor": [
+    0,
+    0.782,
+    -0.082
+   ]
+  },
+  "bone_ribs": {
+   "name": "Ribs",
+   "group": "axial",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.674,
+     1.325,
+     0.814
+    ],
+    "target": [
+     0,
+     1.241,
+     -0.029
+    ]
+   },
+   "anchor": [
+    0.128,
+    1.27,
+    0
+   ]
+  },
+  "bone_sternum": {
+   "name": "Sternum",
+   "group": "axial",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.077,
+     1.397,
+     0.468
+    ],
+    "target": [
+     0,
+     1.359,
+     0.083
+    ]
+   },
+   "anchor": [
+    0,
+    1.35,
+    0.094
+   ]
+  },
+  "bone_clavicle": {
+   "name": "Clavicle",
+   "group": "upper",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.131,
+     1.786,
+     0.656
+    ],
+    "target": [
+     0,
+     1.457,
+     -0.001
+    ]
+   },
+   "anchor": [
+    0.1,
+    1.463,
+    0.024
+   ]
+  },
+  "bone_scapula": {
+   "name": "Scapula",
+   "group": "upper",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.283,
+     1.452,
+     -0.998
+    ],
+    "target": [
+     0,
+     1.358,
+     -0.056
+    ]
+   },
+   "anchor": [
+    0.115,
+    1.36,
+    -0.118
+   ]
+  },
+  "bone_humerus": {
+   "name": "Humerus",
+   "group": "upper",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.462,
+     1.375,
+     1.15
+    ],
+    "target": [
+     0,
+     1.259,
+     -0.004
+    ]
+   },
+   "anchor": [
+    0.205,
+    1.25,
+    0.012
+   ]
+  },
+  "bone_ulna": {
+   "name": "Ulna",
+   "group": "upper",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.407,
+     1.098,
+     1
+    ],
+    "target": [
+     0,
+     0.996,
+     -0.018
+    ]
+   },
+   "anchor": [
+    0.234,
+    0.99,
+    -0.02
+   ]
+  },
+  "bone_radius": {
+   "name": "Radius",
+   "group": "upper",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.426,
+     1.089,
+     1.077
+    ],
+    "target": [
+     0,
+     0.983,
+     0.012
+    ]
+   },
+   "anchor": [
+    0.254,
+    0.98,
+    0.02
+   ]
+  },
+  "bone_carpals": {
+   "name": "Carpals (wrist bones)",
+   "group": "upper",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.105,
+     0.867,
+     0.534
+    ],
+    "target": [
+     0,
+     0.841,
+     0.011
+    ]
+   },
+   "anchor": [
+    0.26,
+    0.842,
+    0.016
+   ]
+  },
+  "bone_metacarpals": {
+   "name": "Metacarpals",
+   "group": "upper",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.133,
+     0.829,
+     0.684
+    ],
+    "target": [
+     0,
+     0.796,
+     0.018
+    ]
+   },
+   "anchor": [
+    0.258,
+    0.8,
+    0.014
+   ]
+  },
+  "bone_hand_phalanges": {
+   "name": "Phalanges of the hand",
+   "group": "upper",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.153,
+     0.77,
+     0.796
+    ],
+    "target": [
+     0,
+     0.732,
+     0.03
+    ]
+   },
+   "anchor": [
+    0.256,
+    0.735,
+    0.02
+   ]
+  },
+  "bone_pelvis": {
+   "name": "Hip bones",
+   "group": "lower",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.398,
+     1.037,
+     0.784
+    ],
+    "target": [
+     0,
+     0.918,
+     -0.012
+    ]
+   },
+   "anchor": [
+    0.125,
+    0.99,
+    0.06
+   ]
+  },
+  "bone_femur": {
+   "name": "Femur",
+   "group": "lower",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.51,
+     0.816,
+     1.023
+    ],
+    "target": [
+     0,
+     0.714,
+     0.003
+    ]
+   },
+   "anchor": [
+    0.108,
+    0.72,
+    0.024
+   ]
+  },
+  "bone_patella": {
+   "name": "Patella",
+   "group": "lower",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.099,
+     0.544,
+     0.374
+    ],
+    "target": [
+     0,
+     0.511,
+     0.044
+    ]
+   },
+   "anchor": [
+    0.092,
+    0.512,
+    0.052
+   ]
+  },
+  "bone_tibia": {
+   "name": "Tibia",
+   "group": "lower",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.45,
+     0.366,
+     0.9
+    ],
+    "target": [
+     0,
+     0.276,
+     0.001
+    ]
+   },
+   "anchor": [
+    0.09,
+    0.3,
+    0.02
+   ]
+  },
+  "bone_fibula": {
+   "name": "Fibula",
+   "group": "lower",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.515,
+     0.349,
+     0.85
+    ],
+    "target": [
+     0,
+     0.263,
+     -0.008
+    ]
+   },
+   "anchor": [
+    0.118,
+    0.3,
+    -0.012
+   ]
+  },
+  "bone_tarsals": {
+   "name": "Tarsals (ankle bones)",
+   "group": "lower",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.281,
+     0.156,
+     0.102
+    ],
+    "target": [
+     0,
+     0.043,
+     -0.01
+    ]
+   },
+   "anchor": [
+    0.09,
+    0.06,
+    -0.01
+   ]
+  },
+  "bone_metatarsals": {
+   "name": "Metatarsals",
+   "group": "lower",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.149,
+     0.224,
+     0.256
+    ],
+    "target": [
+     0,
+     0.025,
+     0.082
+    ]
+   },
+   "anchor": [
+    0.095,
+    0.03,
+    0.085
+   ]
+  },
+  "bone_foot_phalanges": {
+   "name": "Phalanges of the foot",
+   "group": "lower",
+   "layer": "bone",
+   "camera": {
+    "position": [
+     0.109,
+     0.143,
+     0.355
+    ],
+    "target": [
+     0,
+     0.013,
+     0.137
+    ]
+   },
+   "anchor": [
+    0.09,
+    0.016,
+    0.135
+   ]
+  },
+  "tissue_discs": {
+   "name": "Intervertebral discs",
+   "group": "connective",
+   "layer": "connective",
+   "camera": {
+    "position": [
+     0.958,
+     1.362,
+     0.297
+    ],
+    "target": [
+     0,
+     1.266,
+     -0.038
+    ]
+   },
+   "anchor": [
+    0,
+    1.01,
+    0.009
+   ]
+  },
+  "tissue_cartilage": {
+   "name": "Cartilage",
+   "group": "connective",
+   "layer": "connective",
+   "camera": {
+    "position": [
+     0.663,
+     1.153,
+     1.919
+    ],
+    "target": [
+     0,
+     0.964,
+     0.024
+    ]
+   },
+   "anchor": [
+    0.06,
+    1.36,
+    0.087
+   ]
+  },
+  "tissue_ligaments": {
+   "name": "Ligaments",
+   "group": "connective",
+   "layer": "connective",
+   "camera": {
+    "position": [
+     0.852,
+     0.804,
+     0.443
+    ],
+    "target": [
+     0,
+     0.709,
+     -0.03
+    ]
+   },
+   "anchor": [
+    0.128,
+    0.49,
+    -0.006
+   ]
+  },
+  "tissue_tendons": {
+   "name": "Tendons",
+   "group": "connective",
+   "layer": "connective",
+   "camera": {
+    "position": [
+     0.926,
+     0.889,
+     2.343
+    ],
+    "target": [
+     0,
+     0.657,
+     0.028
+    ]
+   },
+   "anchor": [
+    0.092,
+    0.474,
+    0.047
+   ]
+  },
+  "tissue_muscle": {
+   "name": "Muscle",
+   "group": "tissue",
+   "layer": "muscle",
+   "camera": {
+    "position": [
+     1.244,
+     1.182,
+     3.098
+    ],
+    "target": [
+     0,
+     0.871,
+     -0.011
+    ]
+   },
+   "anchor": [
+    0.092,
+    0.72,
+    0.056
+   ]
+  },
+  "tissue_skin": {
+   "name": "Skin",
+   "group": "tissue",
+   "layer": "skin",
+   "camera": {
+    "position": [
+     2.235,
+     1.341,
+     4.474
+    ],
+    "target": [
+     0,
+     0.894,
+     0.003
+    ]
+   },
+   "anchor": [
+    0.17,
+    1.2,
+    0.1
+   ]
+  }
+ }
+}

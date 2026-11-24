@@ -1,0 +1,15 @@
+# Render blueprint: one Docker web service. Secrets are set in the dashboard, not here.
+services:
+  - type: web
+    name: forma
+    runtime: docker
+    healthCheckPath: /api/v1/config
+    envVars:
+      # Neon connection string. Leave unset to run with accounts off.
+      - key: DATABASE_URL
+        sync: false
+      - key: BETTER_AUTH_SECRET
+        generateValue: true
+      # The public origin of this service, e.g. https://forma.onrender.com
+      - key: BETTER_AUTH_URL
+        sync: false

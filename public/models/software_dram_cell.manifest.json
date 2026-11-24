@@ -1,0 +1,175 @@
+{
+ "schemaVersion": 1,
+ "sceneId": "software_dram_cell",
+ "glb": "/models/software_dram_cell.glb",
+ "camera": {
+  "position": [
+   2.365,
+   3.415,
+   4.549
+  ],
+  "target": [
+   0,
+   0.19,
+   0.25
+  ],
+  "fov": 30,
+  "minDistance": 0.353,
+  "maxDistance": 15.266
+ },
+ "groups": {
+  "storage": {
+   "label": "Storage",
+   "color": "#d9a22e"
+  },
+  "access": {
+   "label": "Access",
+   "color": "#4f73d8"
+  },
+  "sense": {
+   "label": "Sensing",
+   "color": "#2f9a6a"
+  }
+ },
+ "layers": [],
+ "bounds": {
+  "min": [
+   -1.4,
+   -0.06,
+   -1.1
+  ],
+  "max": [
+   1.4,
+   0.44,
+   1.6
+  ]
+ },
+ "nodes": {
+  "cell_silicon": {
+   "name": "Silicon base",
+   "camera": {
+    "position": [
+     1.877,
+     2.529,
+     3.662
+    ],
+    "target": [
+     0,
+     -0.03,
+     0.25
+    ]
+   },
+   "anchor": [
+    0,
+    -0.03,
+    0.25
+   ],
+   "decor": true
+  },
+  "cell_capacitor": {
+   "name": "Capacitor",
+   "group": "storage",
+   "camera": {
+    "position": [
+     1.01,
+     1.786,
+     2.526
+    ],
+    "target": [
+     0,
+     0.27,
+     0
+    ]
+   },
+   "anchor": [
+    -0.45,
+    0.45,
+    -0.45
+   ]
+  },
+  "cell_transistor": {
+   "name": "Access transistor",
+   "group": "access",
+   "camera": {
+    "position": [
+     0.918,
+     2.346,
+     1.837
+    ],
+    "target": [
+     0,
+     0.05,
+     0
+    ]
+   },
+   "anchor": [
+    0.15,
+    0.06,
+    0.15
+   ]
+  },
+  "cell_wordline": {
+   "name": "Word line",
+   "group": "access",
+   "camera": {
+    "position": [
+     1.876,
+     1.233,
+     2.345
+    ],
+    "target": [
+     0,
+     0.06,
+     0
+    ]
+   },
+   "anchor": [
+    -1.2,
+    0.1,
+    -0.15
+   ]
+  },
+  "cell_bitline": {
+   "name": "Bit line",
+   "group": "sense",
+   "camera": {
+    "position": [
+     0.939,
+     2.352,
+     2.467
+    ],
+    "target": [
+     0,
+     0.005,
+     0.12
+    ]
+   },
+   "anchor": [
+    0.45,
+    0.01,
+    0.2
+   ]
+  },
+  "cell_sense_amp": {
+   "name": "Sense amplifier",
+   "group": "sense",
+   "camera": {
+    "position": [
+     0.552,
+     1.701,
+     3.09
+    ],
+    "target": [
+     0,
+     0.045,
+     1.25
+    ]
+   },
+   "anchor": [
+    -0.15,
+    0.1,
+    1.25
+   ]
+  }
+ }
+}
