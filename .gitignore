@@ -42,3 +42,7 @@ next-env.d.ts
 
 # monaco is copied from node_modules at dev/build time
 /public/monaco
+
+# local AI-assistant notes and prompts (kept out of the repo)
+/AGENTS.md
+/CLAUDE_CODE_PROMPT.md
